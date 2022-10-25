@@ -111,7 +111,7 @@ public class PredlogKorisnickogInterfejsa extends JDialog {
 
     private void onButtonOpenTop() {
         // Create a file dialog box to prompt for a new file to display
-        FileDialog f = new FileDialog(this, "Otvori fajl TOP", FileDialog.LOAD);
+        FileDialog f = new FileDialog(this, "Otvori fajl (top)", FileDialog.LOAD);
         f.setDirectory(directory); // Set the default directory
         // Display the dialog and wait for the user's response
         f.setVisible(true);
@@ -122,7 +122,7 @@ public class PredlogKorisnickogInterfejsa extends JDialog {
 
     private void onButtonOpenBottom() {
         // Create a file dialog box to prompt for a new file to display
-        FileDialog f = new FileDialog(this, "Otvori fajl BOTTOM", FileDialog.LOAD);
+        FileDialog f = new FileDialog(this, "Otvori fajl (bottom)", FileDialog.LOAD);
         f.setDirectory(directory); // Set the default directory
         // Display the dialog and wait for the user's response
         f.setVisible(true);
@@ -133,7 +133,7 @@ public class PredlogKorisnickogInterfejsa extends JDialog {
 
     private void onButtonSave() {
         // Create a file dialog box to prompt for a new file to display
-        FileDialog f = new FileDialog(this, "Otvori fajl", FileDialog.SAVE);
+        FileDialog f = new FileDialog(this, "Sacuvaj fajl", FileDialog.SAVE);
         f.setDirectory(directory); // Set the default directory
         // Display the dialog and wait for the user's response
         f.setVisible(true);
